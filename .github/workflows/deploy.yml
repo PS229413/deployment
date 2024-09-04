@@ -35,6 +35,6 @@ jobs:
       uses: SamKirkland/ftp-deploy-action@v5
       with:
         local-dir: ./  # Root directory of your Laravel project
-        server: ${{ secrets.FTP_SERVER }}
-        username: ${{ secrets.FTP_USERNAME }}
-        password: ${{ secrets.FTP_PASSWORD }}
+        server: $win6054.site4now.net
+        username: $raulvdzande-001
+        password: $QA06bh89
