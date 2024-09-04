@@ -32,6 +32,7 @@ jobs:
       
       # Build the assets (if using Laravel Mix or other frontend build tools)
       - name: Build assets
+       working-directory: ./
         run: npm install && npm run production # Adjust if using a different build command
       
       - name: Build And Deploy
